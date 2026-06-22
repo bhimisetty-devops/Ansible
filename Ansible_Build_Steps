@@ -1,4 +1,3 @@
-
 step 1: Build Linux server ( rocky or redhat or centOS)
 step 2: install ansible package in Linux server
 step 3: install git package in Linux srever
@@ -16,5 +15,3 @@ step 9: open gitbash clone your repo
 Step 10: open VSCode and start code then open gitbash and run git add .; git commit -m "new file added"; git push origin main. (push code to GitHub)
 step 11: open Linux server clone the gitbash repo and pull the code and run in server
 		git clone https://github.com/bhimisetty-devops/Ansible
-
-

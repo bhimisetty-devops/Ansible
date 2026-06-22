@@ -13,21 +13,24 @@ step 9: open gitbash clone your repo
 		ls
 		cd Ansible
 Step 10: open VSCode and start code then open gitbash and run git add .; git commit -m "new file added"; git push origin main. (push code to GitHub)
-step 11: open Linux server clone the gitbash repo and pull the code and run in server
-		git clone https://github.com/bhimisetty-devops/Ansible
-
-Step 12: Create remote servers ex: Remote-1 and Remote-2
-Step 13: Add remote servers IP's in Ansible inventory file
-Step 14: Create separate "ansible" user in all 3 servers ( Ansible and remote node's)
-Step 15: switch to anisble user in ansible server
-Step 16: Now generate keys (Private and Public) in ansible server using below command.
-Step 17: Copy public key to remote nodes for passwordless authenticating 
+Step 11: Create remote servers ex: Remote-1 and Remote-2
+Step 12: Add remote servers IP's in Ansible inventory file
+Step 13: Create separate "ansible" user in all 3 servers ( Ansible and remote node's)
+Step 14: switch to anisble user in ansible server
+Step 15: Now generate keys (Private and Public) in ansible server using below command.
+Step 16: Copy public key to remote nodes for passwordless authenticating 
         $ ssh-copy-id ansible@192.168.30.136
         $ ssh-copy-id ansible@192.168.30.149
     Note: Now we can able to see authorized_keys in remote servers on below location
             /home/ansible/.ssh
             authorized_keys
-Step 18: Check passwordless authentication success or not using below command from ansible server
+Step 17: Check passwordless authentication success or not using below command from ansible server
         $ ssh 192.168.30.149
+step 18: open Linux Ansible server and clone the gitbash repo and pull the code and run in server
+		git clone https://github.com/bhimisetty-devops/Ansible
+
+Step 19: 
+Step 20: 
+
 
         

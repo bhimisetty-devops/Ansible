@@ -1,0 +1,20 @@
+
+step 1: Build Linux server ( rocky or redhat or centOS)
+step 2: install ansible package in Linux server
+step 3: install git package in Linux srever
+step 4: install gitbash in your laptop
+step 5: Install VSCode in your laptop
+step 5: open your D drive and create one folder like Ansible-Learning
+step 6: open VS code and open your Ansibel-Learning folder in VScode
+	Click on file--click on open folder--select your created folder in latop
+step 7: open gitbash and run cd /D/Ansible-Learning/
+step 8: open GitHub in browser create the new account. And if already exists then create one repo like Ansible
+step 9: open gitbash clone your repo 
+		git clone https://github.com/bhimisetty-devops/
+		ls
+		cd Ansible
+Step 10: open VSCode and start code then open gitbash and run git add .; git commit -m "new file added"; git push origin main. (push code to GitHub)
+step 11: open Linux server clone the gitbash repo and pull the code and run in server
+		git clone https://github.com/bhimisetty-devops/Ansible
+
+
